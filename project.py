@@ -8,7 +8,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.preprocessing import StandardScaler
 
 ## load your dataset(replace "synthetic_healthcare_data.csv")
-data = pd.read_csv("Hearlthcare.csv")
+data = pd.read_csv("Healthcare.csv")
 
 
 ## Assuming "readmission" is the target column and the rest are features
