@@ -16,5 +16,5 @@ df = pd.DataFrame({'team': np.repeat(['A', 'B', 'C'], 100),
 print(df.head())
 
 #create histogram with 20 bins
-df.plot.hist(column=['points'], edgecolor='black', bins=87)
+df.plot.hist(column=['points'], edgecolor='black', bins=100)
 plt.show()
