@@ -22,6 +22,6 @@ plt.plot(x, a*x+b, color='steelblue', linestyle ='--', linewidth=2)
          
 ## add fittea regression equation to pLot
 
-plt. text(1, 17, 'y = '+ '{:.2f}'.format(b) + ' + {:.2f} '.format(a) + 'x', size=14)
+plt. text(30, 170, 'y = '+ '{:.2f}'.format(b) + ' + {:.2f} '.format(a) + 'x', size=14)
 
 plt. show()
